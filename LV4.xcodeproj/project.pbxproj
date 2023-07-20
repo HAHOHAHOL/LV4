@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ACB580FB2A68FEBD00C04E9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB580FA2A68FEBD00C04E9C /* main.swift */; };
+		ACB581022A68FEDD00C04E9C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB581012A68FEDC00C04E9C /* Calculator.swift */; };
+		ACB581042A68FEE800C04E9C /* AbstractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB581032A68FEE800C04E9C /* AbstractOperation.swift */; };
+		ACB581062A68FEF200C04E9C /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB581052A68FEF200C04E9C /* AddOperation.swift */; };
+		ACB581082A68FEFE00C04E9C /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB581072A68FEFE00C04E9C /* SubtractOperation.swift */; };
+		ACB5810A2A68FF0900C04E9C /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB581092A68FF0900C04E9C /* MultiplyOperation.swift */; };
+		ACB5810C2A68FF1100C04E9C /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5810B2A68FF1100C04E9C /* DivideOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		ACB580F72A68FEBD00C04E9C /* LV4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LV4; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB580FA2A68FEBD00C04E9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ACB581012A68FEDC00C04E9C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		ACB581032A68FEE800C04E9C /* AbstractOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractOperation.swift; sourceTree = "<group>"; };
+		ACB581052A68FEF200C04E9C /* AddOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperation.swift; sourceTree = "<group>"; };
+		ACB581072A68FEFE00C04E9C /* SubtractOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractOperation.swift; sourceTree = "<group>"; };
+		ACB581092A68FF0900C04E9C /* MultiplyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
+		ACB5810B2A68FF1100C04E9C /* DivideOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				ACB580FA2A68FEBD00C04E9C /* main.swift */,
+				ACB581012A68FEDC00C04E9C /* Calculator.swift */,
+				ACB581032A68FEE800C04E9C /* AbstractOperation.swift */,
+				ACB581052A68FEF200C04E9C /* AddOperation.swift */,
+				ACB581072A68FEFE00C04E9C /* SubtractOperation.swift */,
+				ACB581092A68FF0900C04E9C /* MultiplyOperation.swift */,
+				ACB5810B2A68FF1100C04E9C /* DivideOperation.swift */,
 			);
 			path = LV4;
 			sourceTree = "<group>";
@@ -121,6 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB580FB2A68FEBD00C04E9C /* main.swift in Sources */,
+				ACB581042A68FEE800C04E9C /* AbstractOperation.swift in Sources */,
+				ACB581022A68FEDD00C04E9C /* Calculator.swift in Sources */,
+				ACB5810C2A68FF1100C04E9C /* DivideOperation.swift in Sources */,
+				ACB5810A2A68FF0900C04E9C /* MultiplyOperation.swift in Sources */,
+				ACB581082A68FEFE00C04E9C /* SubtractOperation.swift in Sources */,
+				ACB581062A68FEF200C04E9C /* AddOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
