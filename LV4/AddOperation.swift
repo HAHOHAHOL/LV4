@@ -8,5 +8,7 @@
 import Foundation
 
 class AddOperation: AbstractOperation {
-    // 함수 override
+    override func operate(firstNumber: Double, secondNumber: Double) -> Double {
+        return firstNumber + secondNumber
+    }
 }

@@ -8,13 +8,36 @@
 import Foundation
 
 class Calculator {
-    /*
-            하나의 프로퍼티를 갖도록 초기화
-        */
     
-    // 프로퍼티의 값을 변경하는 함수 구현
+    var firstNumber: Double
+    var secondNumber: Double
     
-    func calculate(firstNumber: secondNumber: ) -> Double {
-        // 프로퍼티 내부의 함수 실행
+    init(firstNumber: Double, sceondNumber: Double) {
+        self.firstNumber = firstNumber
+        self.secondNumber = sceondNumber
     }
-}
+    
+    func calculate(operator:String) -> Double {
+        
+        var result: AbstractOperation
+        
+        switch `operator` {
+        case "+":
+            result = AddOperation()
+           
+        case "-":
+            result = SubtractOperation()
+          
+        case "*":
+            result = MultiplyOperation()
+            
+        case "/":
+            result = DivideOperation()
+           
+        default:
+            print("유효하지 않은 연산자 입니다.")
+            return 0
+        }
+        return result.operate(firstNumber: firstNumber, secondNumber: secondNumber)
+    }
+    }
